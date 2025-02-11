@@ -10,10 +10,7 @@ h1 {
  
     text-shadow: 2px 2px 50px rgba(255, 239, 148, 0.7);
 }
-.bing {
-    padding: 0em;
-    
-}
+
 
 #text {
     text-align: center;
@@ -43,24 +40,42 @@ p {
      
 }
 body{
-    background: linear-gradient(black , rgb(174, 35, 35));
+    background: linear-gradient(rgb(54, 53, 53) , rgb(246, 77, 77));
    
 
 }
 
 .boxy{
     width: 250px;
-    height: 200px;
+    height: 183px;
     border-style: solid;
-    margin-top: 20px;
+    margin-top: 50px;
     border-color: #ffff68;
     animation: sliding;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    width: fit-content;
+    border-radius: 2em;
+}
+.party{
+    animation: sliding;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ffff68;
+    font-family: cursive;
 }
 
 @keyframes sliding {
     from{margin-left: 100%;}
     to{margin-right: 0%;}
 }
-
+.boxy:hover {
+    transform: scale(1.05);
+   box-shadow: 0 0 15px rgba(201, 217, 25, 0.7);
+  }
+  #img1{
+    border-radius: 2em;
+  }
+ 
