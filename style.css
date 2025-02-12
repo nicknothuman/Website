@@ -1,16 +1,18 @@
 body {
-
-        overflow-x: hidden;
-
     
-    background: linear-gradient(rgb(54, 53, 53) , rgb(246, 77, 77));
+        background: linear-gradient(rgb(54, 53, 53), rgb(246, 77, 77));
+        background-attachment: fixed;
+        background-size: cover;
+       
+    
+    
 }
 h1 {
     text-align: center;
     font-size: 3em;
     padding: 1em;
     color: #ffff68;
- 
+    
     text-shadow: 2px 2px 50px rgba(255, 239, 148, 0.7);
     
    
@@ -65,17 +67,58 @@ p {
 }
 
 @keyframes sliding {
-    from {transform: translateX(100vw);}
-    to{transform: translate(0vw);}
+    from {transform: translateX(100rem);}
+    to{transform: translate(0rem);}
+}
+#img1{
+    border-radius: 2em;
 }
 .boxy:hover {
-    transform: scale(1.05);
+    
    box-shadow: 0 0 15px rgba(201, 217, 25, 0.7);
   }
-  #img1{
+  .wrapper {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+ html {
+    overflow-x: hidden;
+ }
+ .boxy2{
+    width: 250px;
+    height: 183px;
+    border-style: solid;
+    margin-top: 50px;
+    border-color: #ffff68;
+    width: fit-content;
     border-radius: 2em;
-  }
-  .border{
-  
-  }
+    animation: sliding 5s forwards 1;
+    
+}
+.party2{
+    animation: sliding 5s forwards 1 ;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ffff68;
+    font-family: cursive;
+    
+    
+}
+#img2{
+    border-radius: 2em;
+    height: 183px;
+}
  
+.boxy2:hover {
+     box-shadow: 0 0 15px rgba(201, 217, 25, 0.7);
+   }
+.big{
+    
+   
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+    animation: sliding 7s backwards 1;
+}
+
