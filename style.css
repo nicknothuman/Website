@@ -1,124 +1,133 @@
 body {
     
-        background: linear-gradient(rgb(54, 53, 53), rgb(246, 77, 77));
-        background-attachment: fixed;
-        background-size: cover;
-       
-    
-    
+    background: linear-gradient(rgb(54, 53, 53), rgb(246, 77, 77));
+    background-attachment: fixed;
+    background-size: cover;
+   
+
+
 }
 h1 {
-    text-align: center;
-    font-size: 3em;
-    padding: 1em;
-    color: #ffff68;
-    
-    text-shadow: 2px 2px 50px rgba(255, 239, 148, 0.7);
-    
-   
+text-align: center;
+font-size: 3em;
+padding: 1em;
+color: #ffff68;
+
+text-shadow: 2px 2px 50px rgba(255, 239, 148, 0.7);
+
+
 }
 
 
 #text {
-    text-align: center;
-    font-size: 1.5em;
-    font-family: cursive;
-    color: #ffff68;
-    text-shadow: 2px 2px 50px rgba(233, 236, 6, 0.7);
+text-align: center;
+font-size: 1.5em;
+font-family: cursive;
+color: #ffff68;
+text-shadow: 2px 2px 50px rgba(233, 236, 6, 0.7);
 }
 
 #text2 {
-    text-align: center;
-    margin-top: 50em;
-    color: #fb2d2d;
-    text-shadow: 2px 2px 50px rgba(255, 107, 107, 0.7);
+text-align: center;
+margin-top: 50em;
+color: #fb2d2d;
+text-shadow: 2px 2px 50px rgba(255, 107, 107, 0.7);
 
-    
+
 }
 
 p {
-    border-style: solid;
-    border-radius: 2em;
-    border-width: 5px;
-    padding: 10px;
-    width: fit-content;
-    margin: 0 auto ;
-     box-shadow: 1px 1px 10px rgba(200, 200, 200, 0.7);
+border-style: solid;
+border-radius: 2em;
+border-width: 5px;
+padding: 10px;
+width: fit-content;
+margin: 0 auto ;
+ box-shadow: 1px 1px 10px rgba(200, 200, 200, 0.7);
 }
 .boxy{
-    width: 250px;
-    height: 183px;
-    border-style: solid;
-    margin-top: 50px;
-    border-color: #ffff68;
-    width: fit-content;
-    border-radius: 2em;
-    animation: sliding 5s forwards 1;
+width: 250px;
+height: 183px;
+border-style: solid;
+margin-top: 50px;
+border-color: #ffff68;
+width: fit-content;
+border-radius: 2em;
+animation: sliding 5s forwards 1;
+cursor: pointer;
 }
 .party{
-    animation: sliding;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    margin-top: 20px;
-    font-size: 1.5em;
-    color: #ffff68;
-    font-family: cursive;
-    animation-fill-mode: forwards;
+animation: sliding;
+animation-duration: 5s;
+animation-iteration-count: 1;
+margin-top: 20px;
+font-size: 1.5em;
+color: #ffff68;
+font-family: cursive;
+animation-fill-mode: forwards;
 }
 
 @keyframes sliding {
-    from {transform: translateX(100rem);}
-    to{transform: translate(0rem);}
+from {transform: translateX(100rem);}
+to{transform: translate(0rem);}
 }
 #img1{
-    border-radius: 2em;
+border-radius: 2em;
 }
 .boxy:hover {
+
+box-shadow: 0 0 15px rgba(201, 217, 25, 0.7);
+}
+.wrapper {
+width: 200px;
+height: 200px;
+overflow: hidden;
+}
+
+.boxy2{
     
-   box-shadow: 0 0 15px rgba(201, 217, 25, 0.7);
-  }
-  .wrapper {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-  }
- html {
-    overflow-x: hidden;
- }
- .boxy2{
-    width: 250px;
-    height: 183px;
-    border-style: solid;
-    margin-top: 50px;
-    border-color: #ffff68;
-    width: fit-content;
-    border-radius: 2em;
-    animation: sliding 5s forwards 1;
-    
+width: 250px;
+height: 183px;
+border-style: solid;
+margin-top: 50px;
+border-color: #ffff68;
+width: fit-content;
+border-radius: 2em;
+animation: sliding 5s forwards 1;
+cursor: pointer;
+
 }
 .party2{
-    animation: sliding 5s forwards 1 ;
-    margin-top: 20px;
-    font-size: 1.5em;
-    color: #ffff68;
-    font-family: cursive;
-    
-    
+animation: sliding 5s forwards 1 ;
+margin-top: 20px;
+font-size: 1.5em;
+color: #ffff68;
+font-family: cursive;
+
+
+
 }
 #img2{
-    border-radius: 2em;
-    height: 183px;
+border-radius: 2em;
+height: 183px;
 }
- 
+
 .boxy2:hover {
-     box-shadow: 0 0 15px rgba(201, 217, 25, 0.7);
-   }
-.big{
-    
-   
-    position: relative;
-    left: 500px;
-    bottom: 500px;
-    animation: sliding 7s backwards 1;
+ box-shadow: 0 0 15px rgba(201, 217, 25, 0.7);
 }
+.big{
+position: relative;
+animation: sliding 7s backwards 1;
+left: 500px;
+bottom: 500px;
+
+}
+/*overall website restrictions*/
+html {
+
+    overflow-x: clip;
+    transform-origin: top left;
+     
+}
+
 
